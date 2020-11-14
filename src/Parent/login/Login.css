@@ -1,0 +1,106 @@
+.container .card .card-body button{
+ display: block;
+ justify-content: center;
+ margin: auto;
+}
+
+.container .card .card-body .google{
+ border: none;
+ background-color: white;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0 0 2px #c5c7c5;
+ padding: 10px 20px 10px 20px;
+ border-radius: 5px;
+ color: #ffc800;
+}
+
+.container .card .card-body .facebook{
+ border: none;
+ background-color: white;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0 0 2px #c5c7c5;
+ padding: 10px 13px 10px 13px;
+ border-radius: 5px;
+color: #30b5e6;
+}
+
+
+.container .card .card-body .email{
+ border: none;
+ background-color: white;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0 0 2px #c5c7c5;
+ padding: 10px 30px 10px 30px;
+ border-radius: 5px;
+ color: #8b65bf;
+}
+.container .card .card-body .phonee{
+ border: none;
+ background-color: white;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0 0 2px #c5c7c5;
+ padding: 10px 31px 10px 31px;
+ border-radius: 5px;
+ color: #fa6e93;
+}
+
+.container .card .card-body .google:focus{
+ outline: none;
+ box-shadow: 1px 1px 3px -1px #ffc800;
+}
+
+.container .card .card-body .facebook:focus{
+ outline: none;
+ box-shadow: 1px 1px 3px -1px #30b5e6;
+}
+
+.container .card .card-body .email:focus{
+ outline: none;
+ box-shadow: 1px 1px 3px -1px #8b65bf;
+}
+
+.container .card .card-body .phonee:focus{
+ outline: none;
+ box-shadow: 1px 1px 3px -1px #fa6e93;
+}
+
+
+
+/* email    */
+.email .card .card-body{
+text-align: center;
+}
+.email .card .card-body input{
+border: none;
+background-color: white;
+box-shadow: 0 4px 2px -2px #c5c7c5,
+0 0 2px #c5c7c5;
+border-radius: 5px;
+color: #8b65bf;
+width: 90%;
+padding: 10px 10px 10px 10px;
+}
+.email .card .card-body input::placeholder{
+ color: #bababa;
+}
+.email .card .card-body input:focus{
+ outline: none;
+}
+
+.email .card .card-body button{
+ border: none;
+ box-shadow: 0 4px 2px -2px #c5c7c5,
+ 0 0 2px #c5c7c5;
+ border-radius: 5px;
+ background-color: #ab8ebd;
+color: white;
+padding: 7px 15px 7px 15px;
+}
+.email .card .card-body p{
+ font-size: 13px;
+ color: #ab8ebd;
+ margin-top: 5px;
+}
+.email .card .card-body button:focus{
+ outline: none;
+}

@@ -1,0 +1,67 @@
+.detail .card .card-body .price{
+ font-size: 30px;
+ color: #142e2e;
+}
+.detail .card .fa-heart-o{
+ position: absolute;
+ right: 2%;
+ top: 4%;
+ font-size: 22px;
+ font-weight: 800;
+}
+.detail .card .card-body .title{
+ color: grey;
+ font-size: 18px;
+ margin-top: -15px;
+}
+.detail .card .card-body .state{
+ color: grey;
+ font-size: 13px;
+}
+.detail .card .card-body .time{
+ position: absolute;
+ bottom: 12%;
+ right: 2%;
+ color: grey;
+ font-size: 12px;
+}
+.detail .card .card-body .Seller-Desc{
+ color: #142e2e;
+ font-size: 22px;
+ font-weight: 600;
+}
+.detail .card .card-body .dp{
+ display: inline-block;
+}
+.detail .card .card-body .Name{
+ display: inline-block;
+ font-weight: 700;
+ font-size: 17px;
+ margin-left: 20px;
+}
+.detail .card .card-body .btn{
+ background-color: #042121;
+ margin-top: 7px;
+ color: white;
+}
+.detail .card .card-body .fa-phone, .phone{
+ display: inline-block;
+ position: relative;
+ left:38%;
+ margin-top: 10px;
+}
+.detail .card .card-body .fa-phone{
+ font-size: 25px;
+ margin-right: 10px;
+}
+.detail .card .card-body  .phone{
+ position: relative;
+ top: -5px;
+ font-size: 14px;
+}
+.detail .card .card-body .place{
+ font-size: 22px;
+ color: #142e2e;
+ font-weight: 600;
+
+}

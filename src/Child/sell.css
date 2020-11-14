@@ -1,0 +1,111 @@
+.category h4{
+ text-align: center;
+ margin-top: 13px;
+ color: #3d4746;
+ font-weight: 700;
+ margin-bottom: 20px;
+}
+.category .mainCard{
+ margin: 0 auto;
+}
+.category .mainCard .cardChild{
+ position: relative;
+ right: 2.3%;
+ top: 20px;
+}
+.category .mainCard .cardChild ul li{
+ color: #849997;
+}
+.category .mainCard .cardChild ul .btn-group li:hover{
+ background-color: lightgrey;
+ color: #3d4746;
+}
+.category .mainCard .cardChild ul .dropdown-menu{
+ position: absolute;
+ top: 0%;
+}
+.category .mainCard .cardChild span{
+ display:inline;
+}
+.category .mainCard .cardChild span button{
+ margin-right: 10px;
+ padding: 7px 20px;
+ border: none;
+ border: 1px solid #142e2e;
+ border-radius: 5px;
+ background-color: white;
+}
+.category .mainCard .cardChild span button:focus{
+	background-color: lightseagreen;
+}
+.category .mainCard .cardChild span input{
+ width: 52%;
+ padding: 7px;
+ border-radius: 5px;
+ border:none;
+ border: 1px solid #142e2e;
+}
+.category .mainCard .cardChild span p{
+ font-size: 11px;
+ color: grey;
+ border-radius: 5px;
+}
+.category .mainCard .cardChild .form-text{
+	position:relative;
+}
+.category .mainCard .cardChild input{
+ padding:7px 7px 7px 32px;
+ width: 53%;
+border: 1px solid #142e2e;
+border-radius: 5px;
+}
+.category .mainCard .cardChild .static-value{
+	position:absolute;
+	left:8px;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#444;
+ top:9px;
+ padding-right: 3px;
+}
+.category .mainCard .cardChild .icons i{
+	text-align: center;
+	font-size: 25px;
+	color: grey;
+	margin-top: 9px;
+}
+.category .mainCard .cardChild .icons{
+	border: 1px solid grey;
+	margin-bottom: 5px;
+	height: 6.3rem;
+	margin-left: 17px;
+	width: 6.1rem;
+}
+.category .mainCard .cardChild #combo-box-demo{
+	border: none;
+}
+
+
+.button-wrapper {
+  position: relative;
+  text-align: center;
+  margin: 2% 2% auto;
+}
+
+.button-wrapper span.label {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  cursor: pointer;
+  text-transform:uppercase;
+}
+
+#upload {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}

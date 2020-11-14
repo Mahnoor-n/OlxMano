@@ -1,0 +1,24 @@
+.left-card li:hover{
+background-color: #f0f4f0;
+border-bottom: 1px solid lightgrey;
+}
+.left-card li{
+ padding-top: 10px;
+ padding-left: 10px;
+
+}
+.left-card, .card-header, .card-body{
+padding: 0;
+margin: 0;
+}
+.left-card .body , .right-card .card-body{
+ overflow-x: hidden;
+ overflow-y: auto;
+}
+
+.card-footer{
+ position:fixed;
+ bottom: 0;
+ left:0;
+ width: 100%;
+}
